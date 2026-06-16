@@ -90,7 +90,7 @@ Backend API: https://github.com/OptiSolvD/apna-circle
 ## Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/OptiSolvD/apna-circle-frontend.git
 npm install
 npm run dev
 ```
