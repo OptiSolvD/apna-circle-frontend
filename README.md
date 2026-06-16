@@ -1,40 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# LinkedIn Clone - Frontend
 
-## Getting Started
+A LinkedIn-inspired professional networking platform built using Next.js. This repository contains the frontend application responsible for user interaction, profile management, networking features, content sharing, and resume generation.
 
-First, run the development server:
+## Live Demo
+
+🔗 https://apna-circle-frontend-hqao.vercel.app/
+
+## Features
+
+### Authentication
+
+* User Registration
+* User Login
+* JWT-based Authentication
+* Protected Routes
+* Session Persistence using Browser Local Storage
+
+### Profile Management
+
+* Create Professional Profiles
+* Update Personal and Professional Information
+* Profile Picture Support
+* Manage User Details
+
+### Professional Networking
+
+* Send Connection Requests
+* Accept or Reject Requests
+* Track Connection Status
+* View Connected Users
+* Manage Professional Network
+
+### Content Sharing
+
+* Create Posts
+* View Community Feed
+* Comment on Posts
+* Engage with User Content
+
+### Resume Builder
+
+* Generate Professional Resumes
+* Download Resumes as PDF
+* Dynamic Resume Creation
+
+### Social Integration
+
+* Share Posts using Twitter Web Intents
+
+## Tech Stack
+
+* Next.js
+* React.js
+* JavaScript
+* CSS
+* Axios
+
+## Related Repository
+
+Backend API: https://github.com/OptiSolvD/apna-circle
+
+## Screenshots
+
+### Home Page
+
+<img width="1888" height="821" alt="image" src="https://github.com/user-attachments/assets/7d0a2c0a-86b1-44a2-b86c-f7b8fdaeae0a" />
+
+
+### User Profile
+
+<img width="1600" height="722" alt="WhatsApp Image 2026-06-16 at 9 06 06 PM" src="https://github.com/user-attachments/assets/8268b982-d1ea-4c57-9ac9-33dac8fc1bce" />
+
+
+### Connections
+
+<img width="1600" height="691" alt="WhatsApp Image 2026-06-16 at 9 09 06 PM" src="https://github.com/user-attachments/assets/dc5686f2-6f47-4ec3-b721-2c477e355d65" />
+
+
+### Feed
+
+<img width="1600" height="537" alt="WhatsApp Image 2026-06-08 at 10 42 24 PM" src="https://github.com/user-attachments/assets/88983a0a-3d77-4354-9609-2e7d82cd1d7b" />
+
+
+### Resume Builder
+
+<img width="1118" height="807" alt="WhatsApp Image 2026-06-16 at 9 09 46 PM" src="https://github.com/user-attachments/assets/b8389500-c671-4d32-87e8-0f702ae319e0" />
+
+
+## Installation
 
 ```bash
+git clone <repository-url>
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Learnings
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+* Next.js Application Development
+* Authentication and Authorization
+* State Management
+* REST API Integration
+* Professional Networking Workflows
+* Resume Generation and Download
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Author
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Raj Kaushik
